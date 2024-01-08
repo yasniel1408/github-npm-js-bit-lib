@@ -39,6 +39,6 @@ jobs:
           echo 'export PATH=$(npm bin -g):$PATH' >> ~/.zshrc && source ~/.zshrc
           npx bit install
       - name: Crear etiqueta en Bit
-        run: bit tag
+        run: npx bit tag
       - name: Publicar a npm
-        run: bit publish
+        run: npx bit publish
