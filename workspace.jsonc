@@ -69,6 +69,7 @@
         "packageJson": {
           "name": "@yasniel1408/{name}",
 //          "private": false,
+          "main": "index.ts",
           "publishConfig": {
             "scope": "@yasniel1408",
             "registry": "https://npm.pkg.github.com"
