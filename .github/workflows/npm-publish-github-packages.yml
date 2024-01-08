@@ -29,9 +29,9 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y git
-          npm i @teambit/bvm -g -y
+          npm i -g @teambit/bvm
           bvm upgrade -y
-          echo 'export PATH=$HOME/bin:$PATH' >> ~/.bashrc && source ~/.bashrc
+          echo 'export PATH=$(npm bin -g):$PATH' >> ~/.bashrc && source ~/.bashrc
           bit install
       - name: Crear etiqueta en Bit
         run: bit tag
