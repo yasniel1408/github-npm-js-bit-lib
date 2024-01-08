@@ -30,7 +30,7 @@ jobs:
           bvm upgrade -y
           export PATH=$PATH:/root/bin
           source ~/.bashrc
-          exit
+          bash -leo pipefail {0}
           bit install
       - name: Crear etiqueta en Bit
         run: bit tag
