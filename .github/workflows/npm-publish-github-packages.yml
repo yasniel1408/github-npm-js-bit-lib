@@ -23,8 +23,6 @@ jobs:
 #          scope: '@yasniel1408'
       - name: Checkout repository
         uses: actions/checkout@v3
-      - name: Initialize Bit
-        uses: bit-tasks/init@v1
       - name: Bit Dependency Update
         uses: bit-tasks/dependency-update@v1
       - name: Configure
