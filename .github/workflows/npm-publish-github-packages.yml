@@ -8,6 +8,10 @@ on:
     branches:
       - main
 
+defaults:
+  run:
+    shell: bash -leo pipefail {0}
+
 jobs:
   publish-npm:
     runs-on: ubuntu-latest
