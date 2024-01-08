@@ -63,12 +63,12 @@
   "teambit.workspace/variants": {
     "*": {
       "teambit.pkg/pkg": {
-         "packageManagerPublishArgs": [
-           "--access public"
-         ],
+//         "packageManagerPublishArgs": [
+//           "--access public"
+//         ],
         "packageJson": {
           "name": "@yasniel1408/{name}",
-          "private": false,
+//          "private": false,
           "publishConfig": {
             "scope": "@yasniel1408",
             "registry": "https://npm.pkg.github.com"
