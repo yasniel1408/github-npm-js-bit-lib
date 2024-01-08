@@ -23,6 +23,7 @@ jobs:
           scope: '@yasniel1408'
       - name: Configure
         run: |
+          ls -l /proc/$$/exe
           sudo apt-get update
           sudo apt-get install -y git
           npm i @teambit/bvm -g -y
