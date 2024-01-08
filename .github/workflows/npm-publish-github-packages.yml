@@ -35,9 +35,9 @@ jobs:
           sudo apt-get install -y git
           npm i -g @teambit/bvm
           bvm upgrade -y
-          npx @teambit/bvm install
           echo 'export PATH=$HOME/bin:$PATH' >> ~/.bashrc && source ~/.bashrc
-          bit install
+          echo 'export PATH=$(npm bin -g):$PATH' >> ~/.zshrc && source ~/.zshrc
+          npx bit install
       - name: Crear etiqueta en Bit
         run: bit tag
       - name: Publicar a npm
