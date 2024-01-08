@@ -23,13 +23,11 @@ jobs:
           scope: '@yasniel1408'
       - name: Configure
         run: |
-          sudo -i
-          whoami
           sudo apt-get update
           sudo apt-get install -y git
           npm i @teambit/bvm -g -y
           bvm upgrade -y
-          export PATH=$PATH:/usr/local/bin
+          export PATH=$PATH:/runner/bin
           echo $PATH
           bit install
       - name: Crear etiqueta en Bit
