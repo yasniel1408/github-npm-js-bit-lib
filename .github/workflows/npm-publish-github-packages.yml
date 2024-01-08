@@ -42,5 +42,3 @@ jobs:
         run: bit tag
       - name: Publicar a npm
         run: bit publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
