@@ -24,8 +24,6 @@ jobs:
           with:
             ws-dir: '<WORKSPACE_DIR_PATH>'
         - uses: bit-tasks/dependency-update@v1
-          branch: 'main'
-          allow: 'all'
 
 #    steps:
 #      - uses: actions/checkout@v4
