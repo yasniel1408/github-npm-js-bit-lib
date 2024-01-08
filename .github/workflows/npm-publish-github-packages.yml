@@ -28,8 +28,7 @@ jobs:
           npm i @teambit/bvm -g -y
           bvm upgrade -y
           export PATH=$PATH:/root/bin
-      - name: Install dependencies
-        run: bit install
+          bit install
       - name: Crear etiqueta en Bit
         run: bit tag
       - name: Publicar a npm
