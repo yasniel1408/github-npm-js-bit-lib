@@ -18,24 +18,36 @@ jobs:
     permissions:
       contents: read
       packages: write
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '20.x'
-          registry-url: https://npm.pkg.github.com/
-          scope: '@yasniel1408'
-      - name: Configure
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y git
-          npm i -g @teambit/bvm
-          bvm upgrade -y
-          echo 'export PATH=$HOME/bin:$PATH' >> $HOME/.bashrc
-          source $HOME/.bashrc
-      - name: Install dependencies
-        run: bit install
-      - name: Crear etiqueta en Bit
-        run: bit tag
-      - name: Publicar a npm
-        run: bit publish
+      steps:
+        - name: Checkout repository
+          uses: actions/checkout@v3
+        - name: Initialize Bit
+          uses: bit-tasks/init@v1
+          with:
+            ws-dir: '<WORKSPACE_DIR_PATH>'
+        - name: Bit Dependency Update
+          uses: bit-tasks/dependency-update@v1
+          branch: 'main'
+          allow: 'all'
+
+#    steps:
+#      - uses: actions/checkout@v4
+#      - uses: actions/setup-node@v3
+#        with:
+#          node-version: '20.x'
+#          registry-url: https://npm.pkg.github.com/
+#          scope: '@yasniel1408'
+#      - name: Configure
+#        run: |
+#          sudo apt-get update
+#          sudo apt-get install -y git
+#          npm i -g @teambit/bvm
+#          bvm upgrade -y
+#          echo 'export PATH=$HOME/bin:$PATH' >> $HOME/.bashrc
+#          source $HOME/.bashrc
+#      - name: Install dependencies
+#        run: bit install
+#      - name: Crear etiqueta en Bit
+#        run: bit tag
+#      - name: Publicar a npm
+#        run: bit publish
