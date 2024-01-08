@@ -196,7 +196,7 @@ importers:
       '@types/react-dom':
         specifier: ^18.2.5
         version: 18.2.18
-      '@yasniel1408-myorg/my-scope.hello-world':
+      '@yasniel1408/hello-world':
         specifier: workspace:*
         version: file:my-scope/hello-world(react@18.2.0)
       browserslist:
@@ -248,7 +248,7 @@ importers:
         specifier: ^5.88.2
         version: 5.89.0
     dependenciesMeta:
-      '@yasniel1408-myorg/my-scope.hello-world':
+      '@yasniel1408/hello-world':
         injected: true
 
 packages:
@@ -17949,7 +17949,7 @@ packages:
   file:my-scope/hello-world(react@18.2.0):
     resolution: {directory: my-scope/hello-world, type: directory}
     id: file:my-scope/hello-world
-    name: '@yasniel1408-myorg/my-scope.hello-world'
+    name: '@yasniel1408/hello-world'
     peerDependencies:
       react: '*'
     peerDependenciesMeta:
