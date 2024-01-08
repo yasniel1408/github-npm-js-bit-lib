@@ -30,6 +30,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y git
           npm i -g @teambit/bvm
+          bvm install
           bvm upgrade -y
           echo 'export PATH=$(npm bin -g):$PATH' >> ~/.bashrc && source ~/.bashrc
           bit install
