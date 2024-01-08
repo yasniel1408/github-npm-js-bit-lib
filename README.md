@@ -1,4 +1,4 @@
-# Subir un paquete a github packages
+# Subir un paquete de bit a github packages
 
 ## 1- Crear un token de acceso personal
 Para crear un token de acceso personal, ve a la página de configuración de tu cuenta de GitHub y sigue estos pasos:
