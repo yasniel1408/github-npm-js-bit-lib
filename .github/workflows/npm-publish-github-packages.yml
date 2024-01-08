@@ -8,10 +8,6 @@ on:
     branches:
       - main
 
-defaults:
-  run:
-    shell: bash -leo pipefail {0}
-
 jobs:
   publish-npm:
     runs-on: ubuntu-latest
@@ -35,10 +31,11 @@ jobs:
           sudo apt-get install -y git
           npm i -g @teambit/bvm
           bvm upgrade -y
-          echo 'export PATH=$HOME/bin:$PATH' >> ~/.bashrc && source ~/.bashrc
-          echo 'export PATH=$(npm bin -g):$PATH' >> ~/.zshrc && source ~/.zshrc
-          npx bit install
+          echo 'export PATH=$HOME/bin:$PATH' >> $HOME/.bashrc
+          source $HOME/.bashrc
+      - name: Install dependencies
+        run: bit install
       - name: Crear etiqueta en Bit
-        run: npx bit tag
+        run: bit tag
       - name: Publicar a npm
-        run: npx bit publish
+        run: bit publish
