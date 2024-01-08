@@ -15,22 +15,26 @@ jobs:
       contents: read
       packages: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '20.x'
-          registry-url: https://npm.pkg.github.com/
-          scope: '@yasniel1408'
+#      - uses: actions/checkout@v4
+#      - uses: actions/setup-node@v3
+#        with:
+#          node-version: '20.x'
+#          registry-url: https://npm.pkg.github.com/
+#          scope: '@yasniel1408'
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Initialize Bit
+        uses: bit-tasks/init@v1
+      - name: Bit Dependency Update
+        uses: bit-tasks/dependency-update@v1
       - name: Configure
         run: |
-          ls -l /proc/$$/exe
           sudo apt-get update
           sudo apt-get install -y git
           npm i @teambit/bvm -g -y
           bvm upgrade -y
           export PATH=$PATH:/root/bin
           source ~/.bashrc
-          bash -leo pipefail {0}
           bit install
       - name: Crear etiqueta en Bit
         run: bit tag
