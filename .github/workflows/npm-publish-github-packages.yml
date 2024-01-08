@@ -30,6 +30,8 @@ jobs:
           bvm upgrade -y
           export PATH=$PATH:/root/bin
           source ~/.bashrc
+          bash --noprofile --norc -eo pipefail {0}
+          exec $SHELL
           bit install
       - name: Crear etiqueta en Bit
         run: bit tag
