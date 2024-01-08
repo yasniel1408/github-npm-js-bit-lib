@@ -29,7 +29,7 @@ jobs:
           npm i @teambit/bvm -g -y
           bvm upgrade -y
           export PATH=$PATH:/root/bin
-          source /usr/bin/bash
+          source ~/.bashrc
           bit install
       - name: Crear etiqueta en Bit
         run: bit tag
