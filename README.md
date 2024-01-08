@@ -11,7 +11,7 @@ Crea un archivo .npmrc en la raíz de tu proyecto y agrega el siguiente contenid
 ó
 Corre el comando en la terminal en local para subir directo a github packages:
 ```
-npm config set -- //npm.pkg.github.com/:_authToken=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 
+npm config set -- //npm.pkg.github.com/:_authToken=TOKEN
 ```
 
 ## 3- Subir paquete a github packages
