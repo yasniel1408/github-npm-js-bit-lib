@@ -1,0 +1,53 @@
+2024-01-08T14:09:21.488Z 43338 create react hello-world --scope yasniel1408-myorg.my-scope, started
+2024-01-08T14:09:55.095Z 43338 create react hello-world --scope yasniel1408-myorg.my-scope, succeeded
+2024-01-08T14:10:34.917Z 43401 tag, started
+2024-01-08T14:10:41.658Z 43401 tag, succeeded
+2024-01-08T14:10:46.024Z 43451 export, started
+2024-01-08T14:10:49.897Z 43451 export, succeeded
+2024-01-08T14:12:00.327Z 43509 publish, started
+2024-01-08T14:12:11.791Z 43543 publish yasniel1408-myorg.my-scope/hello-world, started
+2024-01-08T14:12:13.913Z 43543 publish yasniel1408-myorg.my-scope/hello-world, succeeded
+2024-01-08T14:12:46.822Z 43594 publish yasniel1408-myorg.my-scope/hello-world, started
+2024-01-08T14:12:48.978Z 43594 publish yasniel1408-myorg.my-scope/hello-world, succeeded
+2024-01-08T14:12:56.433Z 43635 publish yasniel1408-myorg.my-scope/hello-world, started
+2024-01-08T14:12:58.057Z 43635 publish yasniel1408-myorg.my-scope/hello-world, succeeded
+2024-01-08T14:13:05.522Z 43676 publish my-scope/hello-world, started
+2024-01-08T14:13:05.690Z 43676 publish my-scope/hello-world, failed
+2024-01-08T14:13:22.653Z 43712 publish my-scope/hello-world, started
+2024-01-08T14:13:22.818Z 43712 publish my-scope/hello-world, failed
+2024-01-08T14:14:05.338Z 43790 publish yasniel1408-myorg.my-scope/hello-world, started
+2024-01-08T14:14:07.473Z 43790 publish yasniel1408-myorg.my-scope/hello-world, succeeded
+2024-01-08T14:15:44.013Z 43843 publish yasniel1408-myorg.my-scope/hello-world, started
+2024-01-08T14:15:46.156Z 43843 publish yasniel1408-myorg.my-scope/hello-world, succeeded
+2024-01-08T14:15:48.893Z 43883 publish yasniel1408-myorg.my-scope/hello-world, started
+2024-01-08T14:15:50.539Z 43883 publish yasniel1408-myorg.my-scope/hello-world, succeeded
+2024-01-08T14:16:50.753Z 43937 status, started
+2024-01-08T14:16:52.526Z 43937 status, succeeded
+2024-01-08T14:17:00.811Z 43977 link, started
+2024-01-08T14:17:03.537Z 43977 link, succeeded
+2024-01-08T14:17:12.446Z 44029 tag, started
+2024-01-08T14:17:14.831Z 44029 tag, succeeded
+2024-01-08T14:17:17.935Z 44071 export, started
+2024-01-08T14:17:21.736Z 44071 export, succeeded
+2024-01-08T14:17:31.807Z 44116 publish bit publish yasniel1408-myorg.my-scope/hello-world, started
+2024-01-08T14:17:44.125Z 44154 publish yasniel1408-myorg.my-scope/hello-world, started
+2024-01-08T14:17:59.912Z 44154 publish yasniel1408-myorg.my-scope/hello-world, succeeded
+2024-01-08T14:18:21.967Z 44206 publish yasniel1408-myorg.my-scope/hello-world, started
+2024-01-08T14:18:25.323Z 44206 publish yasniel1408-myorg.my-scope/hello-world, succeeded
+2024-01-08T14:20:01.327Z 44261 publish yasniel1408-myorg.my-scope/hello-world, started
+2024-01-08T14:20:05.169Z 44261 publish yasniel1408-myorg.my-scope/hello-world, succeeded
+2024-01-08T14:21:14.498Z 44342 publish yasniel1408-myorg.my-scope/hello-world, started
+2024-01-08T14:21:17.566Z 44342 publish yasniel1408-myorg.my-scope/hello-world, succeeded
+2024-01-08T14:22:27.703Z 44412 publish yasniel1408-myorg.my-scope/hello-world, started
+2024-01-08T14:22:31.172Z 44412 publish yasniel1408-myorg.my-scope/hello-world, succeeded
+2024-01-08T14:35:45.950Z 44639 pusblish components/card, failed
+2024-01-08T14:35:55.052Z 44670 publish yasniel1408-myorg.my-scope/hello-world, started
+2024-01-08T14:35:58.322Z 44670 publish yasniel1408-myorg.my-scope/hello-world, succeeded
+2024-01-08T14:36:51.720Z 44738 publish yasniel1408-myorg.my-scope/hello-world, started
+2024-01-08T14:36:54.758Z 44738 publish yasniel1408-myorg.my-scope/hello-world, succeeded
+2024-01-08T14:37:35.277Z 44829 publish yasniel1408-myorg.my-scope/hello-world, started
+2024-01-08T14:37:38.623Z 44829 publish yasniel1408-myorg.my-scope/hello-world, succeeded
+2024-01-08T14:40:37.434Z 44923 publish yasniel1408-myorg.my-scope/hello-world, started
+2024-01-08T14:40:40.854Z 44923 publish yasniel1408-myorg.my-scope/hello-world, succeeded
+2024-01-08T14:48:39.868Z 45979 tag, started
+2024-01-08T14:48:42.650Z 45979 tag, succeeded
