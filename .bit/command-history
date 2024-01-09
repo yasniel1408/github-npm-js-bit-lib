@@ -90,3 +90,19 @@
 2024-01-08T18:43:45.109Z 56946 publish yasniel1408-myorg.my-scope/hello-world, started
 2024-01-08T18:43:48.313Z 56946 publish yasniel1408-myorg.my-scope/hello-world, succeeded
 2024-01-08T18:52:58.516Z 57356 start, started
+2024-01-09T12:13:43.910Z 10094 create react title --scope yasniel1408-myorg.my-scope1, started
+2024-01-09T12:13:53.264Z 10094 create react title --scope yasniel1408-myorg.my-scope1, succeeded
+2024-01-09T12:16:17.492Z 10206 start, started
+2024-01-09T12:17:28.681Z 10319 start, started
+2024-01-09T12:20:36.926Z 10469 start, started
+2024-01-09T12:20:37.104Z 10469 start, failed
+2024-01-09T12:25:35.280Z 10576 start, started
+2024-01-09T12:27:38.047Z 10675 start, started
+2024-01-09T12:30:24.391Z 10822 install, started
+2024-01-09T12:30:25.498Z 10822 install, failed
+2024-01-09T12:31:00.574Z 10875 link, started
+2024-01-09T12:31:01.196Z 10875 link, failed
+2024-01-09T12:31:09.184Z 10926 install, started
+2024-01-09T12:31:10.159Z 10926 install, failed
+2024-01-09T12:31:27.798Z 10979 start, started
+2024-01-09T12:31:58.284Z 11071 start, started
